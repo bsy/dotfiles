@@ -1,3 +1,5 @@
+source ~/.git-completion.sh
+
 export TERM="xterm-color"
 export CLICOLOR='true'
 export LSCOLORS="cxfxcxdxbxegedabagacad"
@@ -8,15 +10,9 @@ export DISPLAY=:0.0
 export HISTSIZE=1000
 
 export EDITOR="/usr/bin/vim"
-alias app1="ssh ip@app1"
-alias app2="ssh ip@app2"
-alias a="ssh a"
 
-alias ip="cd ~/code/insiderpages"
 alias fx="rake spec:db:fixtures:load"
-alias sshc="ssh ben@cauldron.insiderpages.com"
 alias sss="script/spec spec -c"
-alias itd='mysql -uroot -e '\''drop database insiderpages_test; create database insiderpages_test'\''; rake db:migrate RAILS_ENV=test --trace;'
 alias cd..="cd ../.."
 alias cd...="cd ../../.."
 alias dir="ls -al"
