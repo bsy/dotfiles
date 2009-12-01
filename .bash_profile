@@ -26,6 +26,7 @@ alias ll="ls -la"
 alias gst='git status'
 alias gl='git pull'
 alias gp='git push'
+alias gpr='git pull --rebase origin master'
 alias gd='git diff | mate'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
