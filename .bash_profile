@@ -81,6 +81,7 @@ for a in local $(ls /opt/ | grep -v local | grep -v gentoo); do
         fi
     fi
 done
+source ~/.git-bash-prompt.sh
 
 
 test -r /sw/bin/init.sh && . /sw/bin/init.sh
